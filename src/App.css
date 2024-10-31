@@ -135,6 +135,7 @@ body{
   background-position: 100% 0;
 }
 
+
 .hire::after {
   content: "";
   position: absolute;
@@ -491,7 +492,7 @@ margin: 2% 0;
   border-radius: 30px;
   overflow: hidden;
   margin-bottom: 24px;
-  width: auto;
+  width: 95%;
   height: 35vh;
   margin-top: 4%;
   object-fit: contain;
@@ -761,7 +762,7 @@ background-color: #070911;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 991px) {
   .fa-brands {
     padding-top: 5%;
   }
@@ -773,6 +774,9 @@ background-color: #070911;
   }
   .home-img .glowing-circle {
     margin-top: 50px;
+  }
+  .fa-brande{
+    margin-bottom: 5%;
   }
   .image .home-pic {
     max-width: 300px;
@@ -874,6 +878,7 @@ flex-direction: column-reverse;
 
 width: 95%;
 }
+
 }
 
 

@@ -119,7 +119,13 @@ import TrackVisibility from "react-on-screen";
       href:"https://budget-tracker-eight-nu.vercel.app/"
 
     },
-   
+    {
+      title: "Quiz App",
+      description: "Design & Funcionality",
+      imgUrl: 'img/quiz.png',
+      href:"https://quizapp12.vercel.app/"
+
+    },
   ];
 
 
