@@ -9,7 +9,7 @@ function Home(){
     <div className="container ">
       <a className="navbar-brand" href="#">
         <h1 className="logo">
-          <span className="port">Port</span>Folio.
+          <span className="port">Kiran</span>Ashfaq.
         </h1>
       </a>
       <button

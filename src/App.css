@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Imperial+Script&family=Indie+Flower&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lexend:wght@100..900&family=PT+Sans+Narrow:wght@400;700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Protest+Revolution&family=Sacramento&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 *{
   margin: 0;
   padding: 0;
@@ -19,11 +20,23 @@ body{
   pointer-events: none;
   opacity: 0;
   animation: slidetop 1s ease forwards;
+  font-family: "Imperial Script", cursive;
+
+}
+.con-name{
+  color: white;
+  font-size: 55px;
+  /*  */
+  pointer-events: none;
+  opacity: 0;
+  animation: slidetop 1s ease forwards; 
 }
 .port {
   background: linear-gradient(45deg, #f06, #3cf);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
+  font-family: "Imperial Script", cursive;
+
   /* color: #f06; */
 }
 .li {

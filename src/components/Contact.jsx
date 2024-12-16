@@ -2,7 +2,7 @@ function  Contact(){
     return(
         <>
         
-      <h1 id="contactus" className="logo text-center con mt-5">Contact Me</h1>  
+      <h1 id="contactus" className=" con-name text-center con mt-5">Contact Me</h1>  
       <br /><br /><br />
 
       <div className="container text-center">
