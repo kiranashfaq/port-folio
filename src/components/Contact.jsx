@@ -78,7 +78,6 @@ function  Contact(){
       <p className="end-para copy">
         © 2024 Copyright: Designed by <span className="kiran port">Kiran</span>
       </p>
-      {/* <i className="fa-sharp fa-solid fa-paper-plane-top fa-2xl text-end" style={{ color: '#32c1f1' }}></i> */}
       <a href="#top" className="text-end">
         <i className="fa-solid fa-arrow-up fa-2xl arrow" style={{ color: '#32c1f1' }}></i>
       </a>

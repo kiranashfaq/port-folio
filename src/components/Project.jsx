@@ -206,7 +206,6 @@ import TrackVisibility from "react-on-screen";
           </Col>
         </Row>
       </Container>
-      {/* <img className="background-image-right" src={colorSharp2}></img> */}
     </section>
   )
 }
