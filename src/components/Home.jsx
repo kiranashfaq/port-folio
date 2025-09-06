@@ -71,12 +71,12 @@ function Home(){
   </nav>
   <br /><br /><br /><br /><br /><br /><br /><br /> <br /><br />
                                                      {/* home section  */}
-  <div className="container text-center">
-  <div className="row align-items-start">
-    <div className="col-12 col-sm-6">
+  <div className="container text-center home-main-div">
+  <div className=" home-main-div">
+    <div className=" ">
       <h4 className="home-heading">Hello I'M</h4>
       {/* <h1 className="home-name">KIRAN ASHFAQ</h1> */}
-      <h1 className="home-name name-res">KIRAN ASHFAQ</h1>
+      <h1 className="home-name ">KIRAN ASHFAQ</h1>
 
       <h4 className="home-content">I'm a Developer</h4> <br />
       <button className="hire"><a href="img/Kiranashfaq.pdf" download='kiranashfaq'>Download CV</a></button> 
@@ -98,7 +98,7 @@ function Home(){
       </a>
     </div>
 
-    <div className="col-12 col-sm-4 home-img text-start">
+    <div className="  home-img text-start">
       <div className="glowing-circle">
         <span className="img-span"></span>
         <span className="img-span"></span>

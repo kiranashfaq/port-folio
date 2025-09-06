@@ -90,7 +90,13 @@ body{
   animation: slideleft 0.5s ease forwards;
   animation-delay: 0.1s;
 }
+.home-main-div{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
 
+}
 .home-name {
   color: white;
   
@@ -102,6 +108,9 @@ body{
   /* -webkit-text-stroke: 1px; */
   color: transparent;
   animation: backcolor 5s linear infinite;
+}
+.home-content-div {
+  /* align-items: flex-start; */
 }
 .home-content {
   color: white;
@@ -174,7 +183,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 3.8%;
+  padding-top: 6.6%;
   width: 40px;
   height: 40px;
   background: linear-gradient(45deg, #f06, #3cf);
@@ -213,6 +222,7 @@ body{
   opacity: 0;
   animation: zoomin 1s ease forwards, floatimage 4s ease-in-out infinite;
   animation-delay: 1.5s, 2.1s;
+  align-items: flex-end;
 }
 .home-img .glowing-circle {
   position: relative;
@@ -303,14 +313,13 @@ margin: 2% 0;
 
 
 /* skill section */
-.skill-heading{
+/* .skill-heading{
   margin-top: 6%;
 }
  .skills{
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  /* background-color: red; */
   width: 60%;
   margin: 5% auto;
  }
@@ -337,32 +346,30 @@ margin: 2% 0;
   font-size: 30px;
   padding-top: 7%;
  }
-/* Styling the circular progress container */
 
 .progress-circle-1 {
   width: 150px;
   height: 150px;
   border-radius: 50%;
   background: conic-gradient(
-    #f06 0%, /* Gradient Start */
-    #3cf 90%, /* Progress Percentage */
-    #0c0f1b 90% /* Remaining Circle */
+    #f06 0%, 
+    #3cf 90%, 
+    #0c0f1b 90% 
   );
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
  filter:  drop-shadow(5px 5px 10px #3cf);
- /* margin-left: 3%; */
 }
 .progress-circle-2{
   width: 150px;
   height: 150px;
   border-radius: 50%;
   background: conic-gradient(
-    #f06 0%, /* Gradient Start */
-    #3cf 80%, /* Progress Percentage */
-    #0c0f1b 80% /* Remaining Circle */
+    #f06 0%, 
+    #3cf 80%, 
+    #0c0f1b 80% 
   );
   display: flex;
   align-items: center;
@@ -376,9 +383,9 @@ margin: 2% 0;
   height: 150px;
   border-radius: 50%;
   background: conic-gradient(
-    #f06 0%, /* Gradient Start */
-    #3cf 70%, /* Progress Percentage */
-    #0c0f1b 70% /* Remaining Circle */
+    #f06 0%, 
+    #3cf 70%, 
+    #0c0f1b 70% 
   );
   display: flex;
   align-items: center;
@@ -392,9 +399,9 @@ margin: 2% 0;
   height: 150px;
   border-radius: 50%;
   background: conic-gradient(
-    #f06 0%, /* Gradient Start */
-    #3cf 40%, /* Progress Percentage */
-    #0c0f1b 40% /* Remaining Circle */
+    #f06 0%, 
+    #3cf 40%, 
+    #0c0f1b 40% 
   );
   display: flex;
   align-items: center;
@@ -404,7 +411,7 @@ margin: 2% 0;
 
 }
 
-/* Inner content for the percentage value */
+ Inner content for the percentage value 
 .progress-circle::before {
   content: "";
   width: 130px;
@@ -415,13 +422,13 @@ margin: 2% 0;
   z-index: 1;
 }
 
-/* Centered text showing the progress percentage */
+Centered text showing the progress percentage 
 .progress-value {
   font-size: 24px;
   color: white;
   font-family: 'Poppins', sans-serif;
   z-index: 2;
-}
+} */
 
                                               /* PROJECT SECTION  */
 
@@ -811,11 +818,31 @@ transition: 0.5s;
 
   }
 }
+@media screen and (min-width:768px){
+.home-main-div{
+  display: flex;
+}
+}
 
 @media screen and (max-width:768px){
-  .name-res{
-    font-size: 20px
+  body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
   }
+  .home-main-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: auto;
+    box-sizing: border-box;
+    }
+.logo{
+  font-size: 40px;
+}
+.home-name{
+  font-size: 45px;
+}
   .fa-brands {
     padding-top: 5%;
   }
@@ -973,6 +1000,11 @@ width: 95%;
 .contact-inp:nth-child(2){
   margin-left: 2%;
 
+}
+.skills,
+.skills-2{
+  display: flex;
+  flex-direction: column;
 }
 
 }
